@@ -3,16 +3,23 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Body from "./Body";
 import ItemListContainer from "./components/ItemListContainer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ItemDetailContainer from "./components/ItemDetailContainer";
 
 const App = () => {
   return (
-    <div>
-        <Header />
-        <Navbar />
-        <ItemListContainer atencion={"Todos nuestros productos son originales e importados, tu compra tendrá una demora aproximada de 25 días. Gracias por comprar seguro con Rookies Argentina."}/>
-        <Body />
-        <Footer />
-    </div>
+
+    <BrowserRouter>
+      <Header />
+      <Navbar />
+      <Body />
+      <Footer />
+      <Routes>
+        <Route path={"/"} element={<ItemListContainer/>}></Route>
+        <Route path={"/category/:id"} element={<ItemListContainer/>}></Route>
+        <Route path={"item/:id"} element={<ItemDetailContainer/>}></Route>
+      </Routes>
+    </BrowserRouter>
 
   )
 }

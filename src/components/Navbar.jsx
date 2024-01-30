@@ -1,38 +1,39 @@
+import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#" style={{ color: '#EE0000' }}>Tienda Rookies</a>
+                <NavLink to={"/"} className="navbar-brand" style={{ color: '#EE0000' }}>Tienda Rookies</NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#">Gorras</a>
+                            <NavLink to={"/category/gorras"} className="nav-link" aria-current="page">Gorras</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Remeras</a>
+                            <NavLink to={"/category/remeras"} className="nav-link" >Remeras</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Mini Cascos</a>
+                            <NavLink to={"/category/mini-cascos"} className="nav-link">Mini Cascos</NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <NavLink to={"/"} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Escuderias
-                            </a>
+                            </NavLink>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">AlfaRomeo</a></li>
-                                <li><a className="dropdown-item" href="#">AlphaTauri</a></li>
-                                <li><a className="dropdown-item" href="#">Alpine</a></li>
-                                <li><a className="dropdown-item" href="#">AstonMartin</a></li>
-                                <li><a className="dropdown-item" href="#">Ferrari</a></li>
-                                <li><a className="dropdown-item" href="#">Haas</a></li>
-                                <li><a className="dropdown-item" href="#">McLaren</a></li>
-                                <li><a className="dropdown-item" href="#">Mercedes</a></li>
-                                <li><a className="dropdown-item" href="#">RedBull</a></li>
-                                <li><a className="dropdown-item" href="#">Williams</a></li>
+                                <li><NavLink to={"/"} className="dropdown-item">AlfaRomeo</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">AlphaTauri</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">Alpine</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">AstonMartin</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">Ferrari</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">Haas</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">McLaren</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">Mercedes</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">RedBull</NavLink></li>
+                                <li><NavLink to={"/"} className="dropdown-item">Williams</NavLink></li>
                             </ul>
                         </li>
                         <li className="nav-item">

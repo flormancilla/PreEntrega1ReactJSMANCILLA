@@ -1,0 +1,62 @@
+[
+    {"id":1, "title": "Gorra Red Bull Max Verstappen", "image": "https://i.ibb.co/5T2BHS7/gorra-verstappen.jpg","description": "Gorra replica original del equipo Red Bull del piloto Max Verstappen", "price":27000, "category":"gorras", "escuderia": "RedBull", "piloto": "Max Verstappen", "stock": 3},
+
+    {"id":2, "title": "Gorra Red Bull Sergio Perez", "image": "https://i.ibb.co/XpxH4dL/gorra-perez.jpg","description": "Gorra replica original del equipo Red Bull del piloto Sergio Perez", "price":27000, "category":"gorras", "escuderia": "RedBull", "piloto": "Sergio Perez","stock": 7},
+
+    {"id":3, "title": "Gorra Ferrari Charles Leclerc", "image": "https://i.ibb.co/dM3xFbM/gorra-lecrerc.jpg","description": "Gorra replica original del equipo Ferrari del piloto Charles Leclerc", "price":27000, "category":"gorras", "escuderia": "Ferrari", "piloto": "Charles Leclerc","stock": 5},
+
+    {"id":4, "title": "Gorra Ferrari Carlos Sainz Jr", "image": "https://i.ibb.co/T2cFjKx/gorra-sainz.jpg","description": "Gorra replica original del equipo Ferrari del piloto Carlos Sainz Jr.", "price":27000, "category":"gorras", "escuderia": "Ferrari", "piloto": "Carlos Sainz","stock": 4},
+
+    {"id":5, "title": "Gorra Mercedes Lewis Hamilton", "image": "https://i.ibb.co/Y8KwL6P/gorra-hamilton.jpg","description": "Gorra replica original del equipo Mercedes del piloto Lewis Hamilton", "price":27000, "category":"gorras", "escuderia": "Mercedes", "piloto": "Lewis Hamilton","stock": 3},
+
+    {"id":6, "title": "Gorra Mercedes George Russell", "image": "https://i.ibb.co/vm1Kc8S/gorra-russell.jpg","description": "Gorra replica original del equipo Mercedes del piloto George Russell", "price":27000, "category":"gorras", "escuderia": "Mercedes", "piloto": "George Russell","stock": 9},
+
+    {"id":7, "title": "Gorra Mc Laren Lando Norris", "image": "https://i.ibb.co/gTj7kHX/gorra-norris.jpg","description": "Gorra replica original del equipo McLaren del piloto Lando Norris", "price":25000, "category":"gorras", "escuderia": "McLaren", "piloto": "Lando Norris","stock": 6},
+
+    {"id":8, "title": "Gorra McLaren Oscar Piastri", "image": "https://i.ibb.co/d2frGk5/gorra-piastri.jpg","description": "Gorra replica original del equipo McLaren del piloto Oscar Piastri", "price":25000, "category":"gorras", "escuderia": "McLaren", "piloto": "Oscar Piastri","stock": 9},
+
+    {"id":9, "title": "Gorra Aston Martin Fernando Alonso", "image": "https://i.ibb.co/xz5JkdM/gorra-alonso.jpg","description": "Gorra replica original del equipo Aston Martin del piloto Fernando Alonso", "price":25000, "category":"gorras", "escuderia": "Aston Martin", "piloto": "Fernando Alonso","stock": 2},
+
+    {"id":10, "title": "Gorra Aston Martin Lance Stroll", "image": "https://i.ibb.co/wdH03mZ/gorra-stroll.jpg","description": "Gorra replica original del equipo Aston Martin del piloto Lance Stroll", "price":25000, "category":"gorras", "escuderia": "Aston Martin", "piloto": "Lance Stroll","stock": 16},
+
+    {"id":11, "title": "Gorra Williams Alex Albon", "image": "https://i.ibb.co/q0wD0CR/gorra-albon.jpg","description": "Gorra replica original del equipo Williams del piloto Alex Albon", "price":25000, "category":"gorras", "escuderia": "Williams", "piloto": "Alex Albon","stock": 18},
+
+    {"id":12, "title": "Gorra Williams Logan Sargeant", "image": "https://i.ibb.co/rbLKVp4/gorra-sargeant.jpg","description": "Gorra replica original del equipo Williams del piloto Logan Sargeant", "price":23000, "category":"gorras", "escuderia": "Williams", "piloto": "Logan Sargeant","stock": 21},
+
+    {"id":13, "title": "Gorra Alpine Esteban Ocon", "image": "https://i.ibb.co/6vsKDsB/gorra-ocon.jpg","description": "Gorra replica original del equipo Alpine del piloto Esteban Ocon", "price":23000, "category":"gorras", "escuderia": "Alpine", "piloto": "Esteban Ocon","stock": 19},
+
+    {"id":14, "title": "Gorra Alpine Pierre Gasly", "image": "https://i.ibb.co/kh2HPdC/gorra-gasly.jpg","description": "Gorra replica original del equipo Alpine del piloto Pierre Gasly", "price":23000, "category":"gorras", "escuderia": "Alpine", "piloto": "Pierre Gasly","stock": 10},
+
+    {"id":15, "title": "Gorra Alfa Romeo Valtteri Bottas", "image": "https://i.ibb.co/BynnT55/gorra-bottas.jpg","description": "Gorra replica original del equipo Alfa Romeo del piloto Valteri Bottas", "price":21000, "category":"gorras", "escuderia": "Alfa Romeo", "piloto": "Valteri Bottas","stock": 14},
+
+    {"id":16, "title": "Gorra Alfa Romeo Guanyu Zhou", "image": "https://i.ibb.co/C10QF0g/gorra-zhou.jpg","description": "Gorra replica original del equipo Alfa Romeo del piloto Guanyu Zhou", "price":21000, "category":"gorras", "escuderia": "Alfa Romeo", "piloto": "Guanyu Zhou","stock": 19},
+
+    {"id":17, "title": "Gorra Haas Kevin Magnussen", "image": "https://i.ibb.co/1vVHn53/gorra-magnussen.jpg","description": "Gorra replica original del equipo Haas del piloto Kevin Magnussen", "price":21000, "category":"gorras", "escuderia": "Haas", "piloto": "Kevin Magnussen","stock": 24},
+
+    {"id":18, "title": "Gorra Haas Nico Hulkenberg", "image": "https://i.ibb.co/3scWqDr/gorra-hulkenberg.jpg","description": "Gorra replica original del equipo Haas del piloto Nico Hulkenberg", "price":21000, "category":"gorras", "escuderia": "Haas", "piloto": "Nico Hulkenberg","stock": 25},
+
+    {"id":19, "title": "Gorra AlphaTauri Yuki Tsunoda", "image": "https://i.ibb.co/M616NVz/gorra-tsunoda.jpg","description": "Gorra replica original del equipo AlphaTauri del piloto Yuki Tsunoda", "price":21000, "category":"gorras", "escuderia": "AlphaTauri", "piloto": "Yuki Tsunoda","stock": 16},
+
+    {"id":20, "title": "Gorra AlphaTauri Daniel Ricciardo", "image": "https://i.ibb.co/JkqBfKX/gorra-ricciardo.jpg","description": "Gorra replica original del equipo AlphaTauri del piloto Daniel Ricciardo", "price":21000, "category":"gorras", "escuderia": "AlphaTauri", "piloto": "Daniel Ricciardo","stock": 9},
+
+    {"id":21, "title": "Remera RedBull", "image": "https://i.ibb.co/FVSNJsJ/remera-redbull.jpg","description": "Remera replica original del equipo Red Bull", "price":32000, "category":"remeras", "escuderia": "RedBull", "piloto": "","stock": 49},
+
+    {"id":22, "title": "Remera Ferrari", "image": "https://i.ibb.co/NZgRc01/remera-ferrari.jpg","description": "Remera replica original del equipo Ferrari", "price":32000, "category":"remeras", "escuderia": "Ferrari", "piloto": "","stock": 36},
+
+    {"id":23, "title": "Remera Mercedes", "image": "https://i.ibb.co/wMhKSbb/remera-mercedes.jpg","description": "Remera replica original del equipo Mercedes", "price":32000, "category":"remeras", "escuderia": "Mercedes", "piloto": "","stock": 53},
+
+    {"id":24, "title": "Remera McLaren", "image": "https://i.ibb.co/Y7svxdb/remera-mclaren.jpg","description": "Remera replica original del equipo McLaren", "price":29000, "category":"remeras", "escuderia": "McLaren", "piloto": "","stock": 65},
+
+    {"id":25, "title": "Remera Aston Martin", "image": "https://i.ibb.co/PgRH07d/remera-aston-martin.jpg","description": "Remera replica original del equipo Aston Martin", "price":29000, "category":"remeras", "escuderia": "Aston Martin", "piloto": "","stock": 33},
+    
+    {"id":26, "title": "Remera Williams", "image": "https://i.ibb.co/gSVvZKR/remera-williams.jpg","description": "Remera replica original del equipo Williams", "price":29000, "category":"remeras", "escuderia": "Williams", "piloto": "","stock": 69},
+
+    {"id":27, "title": "Remera Alpine", "image": "https://i.ibb.co/L5BjMVj/remera-alpine.jpg","description": "Remera replica original del equipo Alpine", "price":29000, "category":"remeras", "escuderia": "Alpine", "piloto": "","stock": 57},
+
+    {"id":28, "title": "Remera Alfa Romeo", "image": "https://i.ibb.co/nnW1PtS/remera-alfa-romeo.jpg","description": "Remera replica original del equipo Alfa Romeo", "price":27000, "category":"remeras", "escuderia": "Alfa Romeo", "piloto": "","stock": 71},
+
+    {"id":29, "title": "Remera ALphaTauri", "image": "https://i.ibb.co/V24Xc9n/remera-alphatauri.jpg","description": "Remera replica original del equipo AlphaTauri", "price":27000, "category":"remeras", "escuderia": "ALphaTauri", "piloto": "","stock": 72},
+
+    {"id":30, "title": "Remera Haas", "image": "https://i.ibb.co/J2Khsk7/remera-haas.jpg","description": "Remera replica original del equipo Haas", "price":27000, "category":"remeras", "escuderia": "Haas", "piloto": "","stock": 85}
+
+]
