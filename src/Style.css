@@ -74,3 +74,21 @@ a {
   flex-grow: 1;
   align-items: center;
 }
+
+
+.card-img, .card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+  width: 100%;
+}
+.row-detalle>* {
+  flex-shrink: 0;
+  width: 50%;
+  max-width: 50%;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  margin-top: var(--bs-gutter-y);
+}

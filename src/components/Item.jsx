@@ -6,11 +6,11 @@ const Item = ({ item }) => {
             <div className="card">
                 <Link to={"/item/" + item.id}>
                     <img src={item.image} className="img-fluid" alt={item.title} />
-                    <div className="card-body">
-                        <h5 className="card-title">{item.title}</h5>
-                        <p className="card-text">{item.description}</p>
-                    </div>
                 </Link>
+                <div className="card-body">
+                    <h5 className="card-title">{item.title}</h5>
+                    <p className="card-text">{item.description}</p>
+                </div>
             </div>
         </div>
     );

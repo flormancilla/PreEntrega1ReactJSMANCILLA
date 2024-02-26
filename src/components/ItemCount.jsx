@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 
-const ItemCount = ({ stock }) => {
+const ItemCount = ({ stock, onAdd }) => {
     const [counter, setCounter] = useState(0);
     const [itemStock, setItemStock] = useState(stock);
+    const [itemAdded, setItemAdded] = useState(false)
 
     const incrementar = () => {
         if (counter < itemStock) {
@@ -16,9 +18,12 @@ const ItemCount = ({ stock }) => {
         }
     }
 
-    const onAdd = () => {
+    const addToCart = () => {
         if (counter <= itemStock) {
-            setItemStock(itemStock - counter)
+            setItemStock(itemStock - counter);
+            setCounter(1);
+            onAdd(counter);
+            setItemAdded(true);
         }
     }
 
@@ -34,7 +39,7 @@ const ItemCount = ({ stock }) => {
                 <button type="button" className="btn btn-primary" onClick={incrementar}>+</button>
             </div>
             <div>
-                <button type="button" className="btn btn-primary" onClick={onAdd}>Agregar al carrito</button>
+                {itemAdded ? <Link to={"/cart"} type="button" className="btn btn-danger">Terminar mi compra</Link>: <button type="button" className="btn btn-danger" onClick={addToCart}>Agregar al carrito</button>}
             </div>
         </div>
     )
